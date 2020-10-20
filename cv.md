@@ -2,7 +2,7 @@
 ****
 ### Contacts:
 **Email:** *kirylpliushchenia94@gmail.com*
-***Tel:*** +375336412079
+***Tel:*** +375298091021
 ### Summary:
 my goal in the near future is to learn JS and find a job. Because I have 2 children and a wife on maternity leave.
 I am purposeful, disciplined.
