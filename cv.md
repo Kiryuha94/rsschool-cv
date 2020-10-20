@@ -1,15 +1,16 @@
 # Kiryl Pliushchenia
 ****
 ### Contacts:
-**Email:** *kirylpliushchenia94@gmail.com*
-***Tel:*** +375298091021
+- **Email:** *kirylpliushchenia94@gmail.com*
+- ***Tel:*** +375298091021
 ### Summary:
 my goal in the near future is to learn JS and find a job. Because I have 2 children and a wife on maternity leave.
 I am purposeful, disciplined.
 ### Skills: 
 HTML, CSS
 ### Code examples:
-`class Input {
+```
+class Input {
 constructor({title}){
     this.title = title
     this.element = this._createInput()
@@ -31,7 +32,8 @@ conteiner.appendChild(input)
 
 return conteiner
 }
-}```
+}
+```
 
 ### Experience:
 tried to create web pages and and write code in JS for it.
