@@ -11,27 +11,30 @@ HTML, CSS
 ### Code examples:
 ```
 class Input {
-constructor({title}){
-    this.title = title
-    this.element = this._createInput()
-}
-getValue(){
-  return this.input.value
-}
-_createInput() {
-const title = document.createElement("h4")
-title.innerText = this.title
-const input = document.createElement("input")
-this.input = input
+  constructor({ title }) {
+    this.title = title;
+    this.element = this._createInput();
+  }
 
-const conteiner = document.createElement("div")
-conteiner.className = "input"
+  getValue() {
+    return this.input.value;
+  }
 
-conteiner.appendChild(title)
-conteiner.appendChild(input)
+  _createInput() {
+    const title = document.createElement("h4");
+    title.innerText = this.title;
 
-return conteiner
-}
+    const input = document.createElement("input");
+    this.input = input;
+
+    const container = document.createElement("div");
+    container.className = "input";
+
+    container.appendChild(title);
+    container.appendChild(input);
+
+    return container;
+  }
 }
 ```
 
