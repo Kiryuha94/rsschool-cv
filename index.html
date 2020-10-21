@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="icon" href="./img/favicon.png">
+</head>
+<body>
+<header>
+    <h1>Kiryl Pliushchenia</h1>
+    <figure>
+        <img src="./img/avatar.jpg" alt="my avatar" width="300em">
+        <figcaption>Kiryl Pliushchenia</figcaption>
+    </figure>
+    <nav>
+    <a href="#"> VK</a>
+    <a href="#"> Instagram</a>
+    <a href="#"> Facebook</a>
+</nav>
+</header>
+ <main>
+     <section>
+         <h3>Summary</h3>
+         <p>My goal in the near future is to learn JS and find a job. Because I have 2 children and a wife on maternity leave.
+            I am purposeful, disciplined.</p>
+     </section>
+     <section>
+         <h3>Skills:</h3>
+         <ul type="circle">
+             <li>HTML</li>
+             <li>CSS</li>
+            </ul>
+     </section>
+     <section>
+         <h3>Code examples:</h3>
+         <pre>
+            class Input {
+                constructor({title}){
+                    this.title = title
+                    this.element = this._createInput()
+                }
+                getValue(){
+                  return this.input.value
+                }
+                _createInput() {
+                const title = document.createElement("h4")
+                title.innerText = this.title
+                const input = document.createElement("input")
+                this.input = input
+                
+                const conteiner = document.createElement("div")
+                conteiner.className = "input"
+                
+                conteiner.appendChild(title)
+                conteiner.appendChild(input)
+                
+                return conteiner
+                }
+                }
+         </pre>
+     </section>
+     <section>
+         <h3>Experience:</h3>
+         <p>Tride to create web pages and and write code in JS for it.</p>
+         <a href="https://kiryuha94.github.io/test/" type="https://kiryuha94.github.io/test/" target=blank >My WEB</a>
+     </section>
+     <section>
+         <h3>Education:</h3>
+         <p>Only self-study</p>
+     </section>
+     <section>
+         <h3>English:</h3>
+         <p>A2. Now I pass an online course</p>
+     </section>
+ </main>
+ <footer>
+     <address>
+        Email: <a href="kirylpliushchenia94@gmail.com">kirylpliushchenia94@gmail.com</a>
+        Tel:<a href="tel:375298091021"> +375298091021</a>
+     </address>
+ </footer>  
+</body>
+</html>
