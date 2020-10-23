@@ -1,84 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV</title>
-    <link rel="icon" href="./img/favicon.png">
-</head>
-<body>
-<header>
-    <h1>Kiryl Pliushchenia</h1>
-    <figure>
-        <img src="./img/avatar.jpg" alt="my avatar" width="300">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="./img/favicon.png" />
+  </head>
+  <body>
+    <header>
+      <h1 class="person">Kiryl Pliushchenia</h1>
+        <nav class="nav_bar">
+          <a href="#"><i class="fab fa-vk"></i>VK</a>
+          <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
+          <a href="#"><i class="fab fa-facebook-f"></i>Facebook</a>
+        </nav>
+      </header>
+      <main>
+      <figure class="avatar_img">
+        <img class="avatar" src="./img/avatar.jpg" alt="my avatar"/>
         <figcaption>Kiryl Pliushchenia</figcaption>
-    </figure>
-    <nav>
-    <a href="#"> VK</a>
-    <a href="#"> Instagram</a>
-    <a href="#"> Facebook</a>
-</nav>
-</header>
- <main>
-     <section>
-         <h3>Summary</h3>
-         <p>My goal in the near future is to learn JS and find a job. Because I have 2 children and a wife on maternity leave.
-            I am purposeful, disciplined.</p>
-     </section>
-     <section>
-         <h3>Skills:</h3>
-         <ul type="circle">
-             <li>HTML</li>
-             <li>CSS</li>
-            </ul>
-     </section>
-     <section>
-         <h3>Code examples:</h3>
-         <pre>
+      </figure>
+      <section class="summary">
+        <h2>Summary:</h2>
+        <p>
+          My goal in the near future is to learn JS and find a job. Because I
+          have 2 children and a wife on maternity leave. I am purposeful,
+          disciplined.
+        </p>
+      </section>
+      <section class="skills">
+        <h2>Skills:</h2>
+        <ul type="circle">
+          <li>HTML</li>
+          <li>CSS</li>
+        </ul>
+      </section>
+      <section class="code">
+        <h2>Code examples:</h2>
+        <pre>
             class Input {
-                constructor({title}){
-                    this.title = title
-                    this.element = this._createInput()
+                constructor({ title }) {
+                  this.title = title;
+                  this.element = this._createInput();
                 }
-                getValue(){
-                  return this.input.value
+              
+                getValue() {
+                  return this.input.value;
                 }
+              
                 _createInput() {
-                const title = document.createElement("h4")
-                title.innerText = this.title
-                const input = document.createElement("input")
-                this.input = input
-                
-                const conteiner = document.createElement("div")
-                conteiner.className = "input"
-                
-                conteiner.appendChild(title)
-                conteiner.appendChild(input)
-                
-                return conteiner
+                  const title = document.createElement("h4");
+                  title.innerText = this.title;
+              
+                  const input = document.createElement("input");
+                  this.input = input;
+              
+                  const container = document.createElement("div");
+                  container.className = "input";
+              
+                  container.appendChild(title);
+                  container.appendChild(input);
+              
+                  return container;
                 }
-                }
-         </pre>
-     </section>
-     <section>
-         <h3>Experience:</h3>
-         <p>Tride to create web pages and and write code in JS for it.</p>
-         <a href="https://kiryuha94.github.io/test/" title="https://kiryuha94.github.io/test/" target=blank >My WEB</a>
-     </section>
-     <section>
-         <h3>Education:</h3>
-         <p>Only self-study</p>
-     </section>
-     <section>
-         <h3>English:</h3>
-         <p>A2. Now I pass an online course</p>
-     </section>
- </main>
- <footer>
-     <address>
-        Email: <a href="kirylpliushchenia94@gmail.com">kirylpliushchenia94@gmail.com</a>
-        Tel:<a href="tel:375298091021"> +375298091021</a>
-     </address>
- </footer>  
-</body>
+              }
+         </pre
+        >
+      </section>
+      <section class="experience">
+        <h2>Experience:</h2>
+        <p>Tride to create web pages and and write code in JS for it.</p>
+        <a
+          href="https://kiryuha94.github.io/test/"
+          title="https://kiryuha94.github.io/test/"
+          target="blank"
+          >My WEB</a
+        >
+      </section>
+      <section class="education">
+        <h2>Education:</h2>
+        <p>Only self-study</p>
+      </section>
+      <section>
+        <h2>English:</h2>
+        <p>A2. Now I pass an online course.</p>
+      </section>
+    </main>
+    <footer>
+      <address>
+       <span><i class="fas fa-at"></i>
+        <a href="kirylpliushchenia94@gmail.com"
+          >kirylpliushchenia94@gmail.com</a>
+      </span>
+       <span><i class="fas fa-mobile-alt"></i>
+        <a href="tel:375298091021"> +375298091021</a>
+       </span>
+      </address>
+    </footer>
+  </body>
 </html>
