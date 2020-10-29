@@ -54,32 +54,32 @@
         <section class="code">
           <h2>Code examples:</h2>
           <pre>
-              class Input {
-            constructor({ title }) {
-              this.title = title;
-              this.element = this._createInput();
-            }
-          
-            getValue() {
-              return this.input.value;
-            }
-          
-            _createInput() {
-              const title = document.createElement("h4");
-              title.innerText = this.title;
-          
-              const input = document.createElement("input");
-              this.input = input;
-          
-              const container = document.createElement("div");
-              container.className = "input";
-          
-              container.appendChild(title);
-              container.appendChild(input);
-          
-              return container;
-            }
-            }
+            class Input {
+              constructor({ title }) {
+                this.title = title
+                this.element = this._createInput()
+              }
+            
+              getValue() {
+                return this.input.value
+              }
+            
+              _createInput() {
+                const title = document.createElement('h4')
+                title.innerText = this.title
+            
+                const input = document.createElement('input')
+                this.input = input
+            
+                const container = document.createElement('div')
+                container.className = 'input'
+            
+                container.appendChild(title)
+                container.appendChild(input)
+            
+                return container
+              }
+            }            
           </pre>
         </section>
         <section class="experience">
@@ -96,6 +96,7 @@
           <p>A2. Now I pass an online course.</p>
         </section>
       </main>
+    </div>
       <footer>
         <address>
           <span>
@@ -108,6 +109,5 @@
           </span>
         </address>
       </footer>
-    </div>
   </body>
 </html>
