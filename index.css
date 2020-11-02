@@ -39,7 +39,7 @@ body {
 }
 
 .navbar > a:hover {
-  color: rgb(255, 255, 255)
+  color: rgb(255, 255, 255);
 }
 
 .navbar a > i {
@@ -100,15 +100,15 @@ h2 {
 
 p {
   margin-left: 0.9rem;
-  font-family: "Georgia";
+  font-family: 'Georgia';
 }
 
 .skills > ul li {
   margin-left: 2rem;
 }
 
-.skills ul{
-list-style-type:circle;  
+.skills ul {
+  list-style-type: circle;
 }
 
 .code > pre {
@@ -119,7 +119,6 @@ list-style-type:circle;
 
 .experience > a {
   margin: 1rem auto;
-  
 }
 
 .experience > a:hover {
@@ -151,29 +150,30 @@ footer address span > a {
   color: rgb(43, 245, 248);
 }
 
-footer address span  a:hover {
+footer address span a:hover {
   color: rgb(255, 255, 255);
 }
 
-@media(max-width: 320px),(max-width: 480px){
-  *{font-size: 13px;}
+@media (max-width: 320px), (max-width: 480px) {
+  * {
+    font-size: 13px;
+  }
 
   footer address span {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
 
-  footer{
+  footer {
     padding-top: 1.5rem;
     height: 100%;
   }
 
-  h1{
+  h1 {
     font-size: 1.5rem;
   }
 
   footer address span > a {
-    padding-bottom: 1rem;
+    padding: 0 0 1rem 1rem;
   }
-  
 }
