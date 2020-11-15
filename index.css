@@ -10,22 +10,22 @@ body {
 
 .content {
   max-width: 1024px;
+  margin: 0 auto; 
+}
+
+header {
+  max-width: 35rem;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  text-align: center;
 }
 
 .person {
-  display: flex;
-  justify-content: center;
-  margin: 3rem 0 3rem;
+  margin: 3rem 0;
 }
 
 .navbar {
   display: flex;
   justify-content: space-evenly;
-  flex-direction: row;
   margin-bottom: 2rem;
   width: 100vw;
   max-width: 35rem;
@@ -48,7 +48,6 @@ body {
 
 .avatar_img {
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
   margin-bottom: 2rem;
@@ -67,18 +66,11 @@ body {
   font-weight: 600;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 section {
   background-color: rgba(95, 184, 179, 0.637);
   max-width: 25rem;
   width: 100vw;
-  margin-top: 1rem;
+  margin: 1rem auto;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
